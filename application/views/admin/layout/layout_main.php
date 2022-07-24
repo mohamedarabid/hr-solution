@@ -36,7 +36,7 @@ if(!is_null($role_user)){
 }
 ?>
 <?php $this->load->view('admin/components/htmlheader');?>
-<body class="hrsale-layout hold-transition sidebar-mini skin-blue <?php echo $fixed_header;?> <?php echo $boxed_wrapper;?> <?php echo $compact_sidebar;?>">
+<body dir="rtl" class="hrsale-layout hold-transition sidebar-mini skin-blue <?php echo $fixed_header;?> <?php echo $boxed_wrapper;?> <?php echo $compact_sidebar;?>">
 <div class="wrapper"> 
 <?php $this->load->view('admin/components/header');?>
 
